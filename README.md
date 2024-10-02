@@ -12,14 +12,19 @@
 
 - `praktikum` - пакет, содержащий код программы
 - `tests` - пакет, содержащий тесты, разделенные по классам.
-- `data` - тестовые данные 
+- `data` - тестовые данные
+
 ### Запуск автотестов
 
 **Установка зависимостей**
-
- - pip install -r requirements.txt
+> pip install -r requirements.txt
 
 **Запуск автотестов и создание HTML-отчета о покрытии**
 
-- Команда для формирования HTML-отчета: pytest --cov=praktikum --cov-report=html
-- Команда для запуска тестов: pytest -v
+- Команда для формирования HTML-отчета:
+
+> pytest --cov=praktikum --cov-report=html
+
+- Команда для запуска тестов:
+
+> pytest -v
